@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MyWebApp.Models.Author>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Författare";
+}
+
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-warning">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Namn</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var author in Model)
+    {
+        <tr>
+            <td>@author.AuthorID</td>
+            <td>@(author.Name)</td>
+        </tr>
+    }
+    </tbody>
+</table>

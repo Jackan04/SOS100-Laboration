@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MyWebApp.Models.Book>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Böcker";
+}
+
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-warning">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Titel</th>
+        <th>Författare</th>
+        <th>Publiceringsår</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@(book.Author != null ? book.Author.Name : "No author")</td>
+            <td>@book.PublishedYear</td>
+        </tr>
+    }
+    </tbody>
+</table>

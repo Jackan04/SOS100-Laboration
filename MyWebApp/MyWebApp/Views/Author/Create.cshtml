@@ -1,0 +1,15 @@
+﻿@model MyWebApp.Models.Author
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Skapa ny författare";
+}
+
+
+<form asp-controller="Author" asp-action="Create" method="post">
+    <div class="form-container">
+        <label asp-for="Name" class="control-label">Namn</label>
+        <input asp-for="Name" class="form" />
+    </div>
+    <button type="submit" class="btn btn-create">Skapa</button>
+</form>
