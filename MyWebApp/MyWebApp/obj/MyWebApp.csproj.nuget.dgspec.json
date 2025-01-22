@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacob\\repos\\Laboration-SOS100\\MyWebApp\\MyWebApp\\MyWebApp.csproj": {}
+    "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacob\\repos\\Laboration-SOS100\\MyWebApp\\MyWebApp\\MyWebApp.csproj": {
+    "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacob\\repos\\Laboration-SOS100\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
         "projectName": "MyWebApp",
-        "projectPath": "C:\\Users\\jacob\\repos\\Laboration-SOS100\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
+        "projectPath": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
         "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacob\\repos\\Laboration-SOS100\\MyWebApp\\MyWebApp\\obj\\",
+        "outputPath": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config"

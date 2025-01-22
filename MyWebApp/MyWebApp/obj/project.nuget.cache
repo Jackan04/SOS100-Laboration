@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a6PJO/+IGNA=",
+  "dgSpecHash": "OdPXF0AaQKk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jacob\\repos\\Laboration-SOS100\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
+  "projectFilePath": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jacob\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jacob\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

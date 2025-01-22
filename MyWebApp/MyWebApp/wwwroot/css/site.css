@@ -21,8 +21,8 @@ nav{
     align-items: center;
     gap: 5rem;
     margin-top: 2rem;
-    background-color: lightgreen;
-    padding: 2rem;
+    padding: 1.5rem;
+    border: 0.1rem solid black;
     border-radius: 1rem;
 }
 
@@ -70,4 +70,31 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+.btn-crud-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem;
+}
+
+.btn-crud{
+    outline: none;
+    padding: 0.8rem ;
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.btn-crud-create{
+    background-color: lightgreen;
+}
+
+.btn-crud-edit{
+    background-color: lightblue;
+}
+
+.btn-crud-delete{
+    background-color: lightpink;
 }

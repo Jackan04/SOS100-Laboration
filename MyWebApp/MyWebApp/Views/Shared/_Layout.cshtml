@@ -10,13 +10,13 @@
 
 <nav id="navbar">
     <p><a href="@Url.Action("Index", "Home")">Hem</a></p>
-    <p><a href="@Url.Action("Index", "Book")">Visa böcker</a></p>
-    <p><a href="@Url.Action("Index", "Author")">Visa Författare</a></p>  
+    <p><a href="@Url.Action("Index", "Book")">Böcker</a></p>
+    <p><a href="@Url.Action("Index", "Author")">Författare</a></p>  
 </nav>
 
 <main>
     <h1>@ViewData["Title"]</h1>
-    <p><a href="@Url.Action("Create", "Author")">Skapa ny författare</a></p>
+
     @RenderBody()
 </main>
 
