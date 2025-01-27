@@ -15,8 +15,8 @@
 
 <div class="btn-crud-container">
     <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-create">Skapa</a></p>
-    <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-edit">Ändra</a></p>
-    <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-delete">Radera</a></p>
+    @*<p><a href="@Url.Action("Update", "Author")" class="btn-crud btn-crud-edit">Ändra</a></p>*@
+    <p><a href="@Url.Action("Delete", "Author")" class="btn-crud btn-crud-delete">Radera</a></p>
 </div>
 
 <table class="table">
@@ -24,15 +24,21 @@
     <tr>
         <th>ID</th>
         <th>Namn</th>
+        <th>Hantera</th>
     </tr>
     </thead>
+  
     <tbody>
     @foreach (var author in Model)
     {
         <tr>
             <td>@author.AuthorID</td>
-            <td>@(author.Name)</td>
+            <td>@author.Name</td>
+            <td>
+                <a href="@Url.Action("Update", "Author", new { id = author.AuthorID })" class="btn-crud ">Ändra</a>
+            </td>
         </tr>
     }
     </tbody>
+    
 </table>

@@ -41,6 +41,10 @@ a:hover{
     opacity: 0.7;
 }
 
+button:hover{
+    opacity: 0.7;
+}
+
 .table {
     border-collapse: separate; 
     border-spacing: 15px; 
@@ -57,6 +61,8 @@ a:hover{
 .table thead {
     background-color: #f4f4f4; 
 }
+
+
 
 #welcomeText-container{
     text-align: center;
@@ -97,4 +103,22 @@ a:hover{
 
 .btn-crud-delete{
     background-color: lightpink;
+}
+
+.form-element {
+    margin-bottom: 15px;
+}
+
+.form-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.update-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }

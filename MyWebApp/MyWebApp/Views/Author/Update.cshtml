@@ -1,0 +1,23 @@
+﻿@model MyWebApp.Models.Author
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Uppdatera Författare";
+}
+
+
+<form method="post" asp-action="Update" class="update-form">
+    
+    @*Fältet för ID*@
+    <div class="form-element">
+        <label for="AuthorID">ID</label>
+        <input type="text" name="AuthorID" value="@Model.AuthorID" readonly />
+    </div>
+    @*Fältet för Namn*@
+    <div class="form-element">
+        <label for="Name">Namn</label>
+        <input type="text" name="Name" value="@Model.Name"/>
+    </div>
+
+    <button type="submit" class="btn-crud btn-crud-edit">Uppdatera</button>
+</form>

@@ -421,4 +421,4 @@ C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\refint
 C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\MyWebApp.pdb
 C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\MyWebApp.genruntimeconfig.cache
 C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\ref\MyWebApp.dll
-C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\compressed\fc4x9g7hx4-ev4glcm24u.gz
+C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\compressed\fc4x9g7hx4-exobnc5wsd.gz

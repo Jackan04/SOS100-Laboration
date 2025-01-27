@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qsqwl+MIT+IEuNh6TTfNkkPqNKHb8SVXiyyrHq0Mdc0=",
+  "Hash": "dUYJdFIsLfX3DrPlIs1uMSVGc0V5nmhDYpApO9YXKcU=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-ev4glcm24u.gz",
+      "Identity": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-exobnc5wsd.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "css/site#[.{fingerprint=ev4glcm24u}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=exobnc5wsd}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2so83o9u7a",
-      "Integrity": "jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y=",
+      "Fingerprint": "b4zljqqle2",
+      "Integrity": "9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ev4glcm24u",
-      "Integrity": "qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g=",
+      "Fingerprint": "exobnc5wsd",
+      "Integrity": "8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2729,12 +2729,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-ev4glcm24u.gz",
+      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-exobnc5wsd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001647446458"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "606"
         },
         {
           "Name": "ETag",
-          "Value": "\"jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y=\""
+          "Value": "\"9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 18:18:44 GMT"
+          "Value": "Mon, 27 Jan 2025 10:21:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2772,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g=\""
+          "Value": "W/\"8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g="
+          "Value": "sha256-8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A="
         }
       ]
     },
@@ -2793,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1623"
+          "Value": "1912"
         },
         {
           "Name": "Content-Type",
@@ -2801,11 +2801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g=\""
+          "Value": "\"8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 18:18:44 GMT"
+          "Value": "Mon, 27 Jan 2025 10:21:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2815,13 +2815,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g="
+          "Value": "sha256-8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-ev4glcm24u.gz",
+      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-exobnc5wsd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2830,7 +2830,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "606"
         },
         {
           "Name": "Content-Type",
@@ -2838,11 +2838,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y=\""
+          "Value": "\"9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 18:18:44 GMT"
+          "Value": "Mon, 27 Jan 2025 10:21:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2860,18 +2860,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y="
+          "Value": "sha256-9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw="
         }
       ]
     },
     {
-      "Route": "css/site.ev4glcm24u.css",
-      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-ev4glcm24u.gz",
+      "Route": "css/site.exobnc5wsd.css",
+      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-exobnc5wsd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001647446458"
         }
       ],
       "ResponseHeaders": [
@@ -2881,15 +2881,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "606"
         },
         {
           "Name": "ETag",
-          "Value": "\"jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y=\""
+          "Value": "\"9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 18:18:44 GMT"
+          "Value": "Mon, 27 Jan 2025 10:21:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2909,13 +2909,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g=\""
+          "Value": "W/\"8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ev4glcm24u"
+          "Value": "exobnc5wsd"
         },
         {
           "Name": "label",
@@ -2923,12 +2923,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g="
+          "Value": "sha256-8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A="
         }
       ]
     },
     {
-      "Route": "css/site.ev4glcm24u.css",
+      "Route": "css/site.exobnc5wsd.css",
       "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2938,7 +2938,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1623"
+          "Value": "1912"
         },
         {
           "Name": "Content-Type",
@@ -2946,11 +2946,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g=\""
+          "Value": "\"8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 18:18:44 GMT"
+          "Value": "Mon, 27 Jan 2025 10:21:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2960,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ev4glcm24u"
+          "Value": "exobnc5wsd"
         },
         {
           "Name": "label",
@@ -2968,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qkFZnzBjeHVHYWqUyWn5pFXo1xHI88ScF8NlFYyIB1g="
+          "Value": "sha256-8smIOAMAJNhR0VwJKIpeAaZmV2TUI6BSXB2jHw/0K9A="
         }
       ]
     },
     {
-      "Route": "css/site.ev4glcm24u.css.gz",
-      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-ev4glcm24u.gz",
+      "Route": "css/site.exobnc5wsd.css.gz",
+      "AssetFile": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-exobnc5wsd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "606"
         },
         {
           "Name": "Content-Type",
@@ -2991,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y=\""
+          "Value": "\"9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 18:18:44 GMT"
+          "Value": "Mon, 27 Jan 2025 10:21:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ev4glcm24u"
+          "Value": "exobnc5wsd"
         },
         {
           "Name": "label",
@@ -3021,7 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jn3bvZvNPUvrg5lEluTAs0Q78YLqEK3m5bayrWhYl2Y="
+          "Value": "sha256-9d+bA7KQrm63QK4NsMuRoXaZ1axSaQ6fEKDEyGisUHw="
         }
       ]
     },

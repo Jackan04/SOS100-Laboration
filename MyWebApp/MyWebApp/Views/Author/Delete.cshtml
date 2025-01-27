@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MyWebApp.Models.Author>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Radera Författare";
+}
+
+<table>
+    <thead>
+    <tr>
+        <th>Författare</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var author in Model)
+    {
+        <tr>
+            <td>@author.Name</td>
+            <td>
+                <form asp-controller="Author" asp-action="Delete" method="post">
+                    <input type="hidden" name="AuthorID" value="@author.AuthorID" />
+                    <button type="submit">Radera</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
