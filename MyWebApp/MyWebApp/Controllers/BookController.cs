@@ -20,7 +20,7 @@ namespace MyWebApp.Controllers
         {
             // Hämta alla böcker med deras författare från databasen
             var books = await _context.Books.Include(b => b.Author).ToListAsync();
-            return View(books); // Skickar böckerna till vyn
+            return View(books); // Skickar listan med böckerna till vyn
         }
         
         public IActionResult Create()
