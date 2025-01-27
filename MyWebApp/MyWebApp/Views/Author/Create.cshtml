@@ -5,12 +5,23 @@
     ViewData["Title"] = "Skapa ny författare";
 }
 
+<div class="container mt-5">
 
-<form asp-controller="Author" asp-action="Create" method="post">
-    <div class="form-container">
-        <label asp-for="Name" class="control-label">Namn</label>
-        <input asp-for="Name" class="form" />
-        <button type="submit" class="btn-crud btn-crud-create" >Skapa</button>
-    </div>
-  
-</form>
+    <form asp-controller="Author" asp-action="Create" method="post">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold">Namn</label>
+                    <input asp-for="Name" class="form-control" placeholder="Skriv författarens namn här" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Skapa Författare</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -5,40 +5,40 @@
     ViewData["Title"] = "Författare";
 }
 
-
 @if (ViewBag.ErrorMessage != null)
 {
-    <div class="alert alert-warning">
+    <div class="alert alert-warning mt-3">
         @ViewBag.ErrorMessage
     </div>
 }
 
-<div class="btn-crud-container">
-    <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-create">Skapa</a></p>
-    @*<p><a href="@Url.Action("Update", "Author")" class="btn-crud btn-crud-edit">Ändra</a></p>*@
-    <p><a href="@Url.Action("Delete", "Author")" class="btn-crud btn-crud-delete">Radera</a></p>
-</div>
+<div class="container mt-4">
+    <!-- CRUD Buttons -->
+    <div class="btn-crud-container mb-4">
+        <a href="@Url.Action("Create", "Author")" class="btn btn-success btn-lg me-3">Skapa</a>
+        <a href="@Url.Action("Delete", "Author")" class="btn btn-danger btn-lg">Radera</a>
+    </div>
 
-<table class="table">
-    <thead>
-    <tr>
-        <th>ID</th>
-        <th>Namn</th>
-        <th>Hantera</th>
-    </tr>
-    </thead>
-  
-    <tbody>
-    @foreach (var author in Model)
-    {
+    <!-- Authors Table -->
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
         <tr>
-            <td>@author.AuthorID</td>
-            <td>@author.Name</td>
-            <td>
-                <a href="@Url.Action("Update", "Author", new { id = author.AuthorID })" class="btn-crud ">Ändra</a>
-            </td>
+            <th>ID</th>
+            <th>Namn</th>
+            <th>Hantera</th>
         </tr>
-    }
-    </tbody>
-    
-</table>
+        </thead>
+        <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.AuthorID</td>
+                <td>@author.Name</td>
+                <td>
+                    <a href="@Url.Action("Update", "Author", new { id = author.AuthorID })" class="btn btn-warning btn-sm">Ändra</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

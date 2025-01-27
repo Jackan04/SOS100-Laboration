@@ -5,19 +5,25 @@
     ViewData["Title"] = "Uppdatera Författare";
 }
 
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Uppdatera Författare</h2>
 
-<form method="post" asp-action="Update" class="update-form">
-    
-    @*Fältet för ID*@
-    <div class="form-element">
-        <label for="AuthorID">ID</label>
-        <input type="text" name="AuthorID" value="@Model.AuthorID" readonly />
-    </div>
-    @*Fältet för Namn*@
-    <div class="form-element">
-        <label for="Name">Namn</label>
-        <input type="text" name="Name" value="@Model.Name"/>
-    </div>
+    <form method="post" asp-action="Update" class="bg-light p-4 rounded shadow-sm">
 
-    <button type="submit" class="btn-crud btn-crud-edit">Uppdatera</button>
-</form>
+
+        <div class="mb-3">
+            <label for="AuthorID" class="form-label">ID</label>
+            @*Denna är "Redonly" eftersom att ID automatiskt genereras från databasen*@
+            <input type="text" name="AuthorID" value="@Model.AuthorID" class="form-control" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label for="Name" class="form-label">Namn</label>
+            <input type="text" name="Name" value="@Model.Name" class="form-control" />
+        </div>
+        
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-lg">Uppdatera</button>
+        </div>
+    </form>
+</div>

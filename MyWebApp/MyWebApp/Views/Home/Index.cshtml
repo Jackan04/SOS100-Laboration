@@ -1,13 +1,18 @@
 ﻿@{
     Layout = "_Layout";
-    ViewData["Title"] = "Bibloteket";
 }
 
-<div id="welcomeText-container">
-    <h2>Välkommen till Bilbiblioteket!</h2>
-    <p>
-        Utforska vårt bibliotek av böcker och författare! Du kan enkelt skapa nya böcker och författare, uppdatera information eller radera poster.
-    </p>
+<div class="container text-center mt-5">
+    <div id="welcomeText-container" class="mb-5">
+        <h2 class="display-4 mb-4">Välkommen till Bibloteket!</h2>
+        <p class="lead">
+            Utforska vårt bibliotek av böcker och författare! Du kan enkelt skapa nya böcker och författare, uppdatera information eller radera poster.
+        </p>
+        <div class="d-flex justify-content-center gap-4 mt-4">
+            <a href="@Url.Action("Index", "Book")" class="btn btn-primary btn-lg">Utforska Böcker</a>
+            <a href="@Url.Action("Index", "Author")" class="btn btn-secondary btn-lg">Utforska Författare</a>
+        </div>
+    </div>
+    
+    <img src="/assets/Books.png" class="img-fluid rounded-3 shadow-lg" alt="Books"/>
 </div>
-
-

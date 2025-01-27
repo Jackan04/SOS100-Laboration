@@ -5,36 +5,38 @@
     ViewData["Title"] = "Böcker";
 }
 
-
 @if (ViewBag.ErrorMessage != null)
 {
-    <div class="alert alert-warning">
+    <div class="alert alert-warning mt-3">
         @ViewBag.ErrorMessage
     </div>
 }
 
-<div class="btn-crud-container">
-    <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-create">Skapa</a></p>
-    <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-edit">Ändra</a></p>
-    <p><a href="@Url.Action("Create", "Author")" class="btn-crud btn-crud-delete">Radera</a></p>
-</div>
+<div class="container mt-4">
+    <div class="btn-crud-container mb-4">
+        <a href="@Url.Action("Create", "Book")" class="btn btn-success btn-lg me-3">Skapa</a>
+        <a href="@Url.Action("Edit", "Book")" class="btn btn-warning btn-lg me-3">Ändra</a>
+        <a href="@Url.Action("Delete", "Book")" class="btn btn-danger btn-lg">Radera</a>
+    </div>
 
-<table class="table">
-    <thead>
-    <tr>
-        <th>Titel</th>
-        <th>Författare</th>
-        <th>Publiceringsår</th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var book in Model)
-    {
+
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
         <tr>
-            <td>@book.Title</td>
-            <td>@(book.Author != null ? book.Author.Name : "No author")</td>
-            <td>@book.PublishedYear</td>
+            <th>Titel</th>
+            <th>Författare</th>
+            <th>Publiceringsår</th>
         </tr>
-    }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@(book.Author != null ? book.Author.Name : "No author")</td>
+                <td>@book.PublishedYear</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

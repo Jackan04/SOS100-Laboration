@@ -5,24 +5,32 @@
     ViewData["Title"] = "Radera Författare";
 }
 
-<table>
-    <thead>
-    <tr>
-        <th>Författare</th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var author in Model)
-    {
-        <tr>
-            <td>@author.Name</td>
-            <td>
-                <form asp-controller="Author" asp-action="Delete" method="post">
-                    <input type="hidden" name="AuthorID" value="@author.AuthorID" />
-                    <button type="submit">Radera</button>
-                </form>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Radera Författare</h2>
+    
+    <div class="d-flex justify-content-center">
+
+        <table class="table table-hover table-bordered shadow-lg">
+            <thead class="table-dark">
+            <tr>
+                <th>Författare</th>
+                <th>Åtgärd</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var author in Model)
+            {
+                <tr>
+                    <td>@author.Name</td>
+                    <td>
+                        <form asp-controller="Author" asp-action="Delete" method="post" class="d-inline">
+                            <input type="hidden" name="AuthorID" value="@author.AuthorID" />
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Är du säker på att du vill radera denna författare?')">Radera</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
