@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MyWebApp.Models.Book>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Radera Författare";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Radera Författare</h2>
+    
+    <div class="d-flex justify-content-center">
+
+        <table class="table table-hover table-bordered shadow-lg">
+            <thead class="table-dark">
+            <tr>
+                <th>Författare</th>
+                <th>Åtgärd</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>
+                        <form asp-controller="Author" asp-action="Delete" method="post" class="d-inline">
+                            <input type="hidden" name="AuthorID" value="@book.BookId" />
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Är du säker på att du vill radera denna författare?')">Radera</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

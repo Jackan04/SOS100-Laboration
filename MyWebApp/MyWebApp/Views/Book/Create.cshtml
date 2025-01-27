@@ -1,0 +1,41 @@
+﻿@model MyWebApp.Models.Book
+
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Lägg till ny bok";
+}
+
+<div class="container mt-5">
+
+    <form asp-controller="Book" asp-action="Create" method="post">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label fw-bold">Titel</label>
+                    <input asp-for="Title" class="form-control" placeholder="Ange bokens titel" />
+
+                    <label asp-for="PublishedYear" class="form-label fw-bold">Publiceringsår</label>
+                    <input asp-for="PublishedYear" class="form-control" placeholder="Ange bokens publiceringsår" />
+
+                    <label asp-for="AuthorID" class="form-label fw-bold">Författare</label>
+                    <select asp-for="AuthorID" class="form-control"> @*Visar en drop-down meny för att välja mellan författarna i databasen*@
+                        <option value="">Välj författare</option>
+                        @foreach (var author in ViewBag.Authors as SelectList)
+                        {
+                            <option value="@author.Value">@author.Text</option>
+                        }
+                    </select>
+
+
+                </div>
+
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Skapa Författare</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

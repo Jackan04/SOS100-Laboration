@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MyWebApp.81wsvdbxef.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\wwwroot\\assets\\Books.png",
+      "PackagePath": "staticwebassets\\assets\\Books.png"
+    },
+    {
       "Id": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

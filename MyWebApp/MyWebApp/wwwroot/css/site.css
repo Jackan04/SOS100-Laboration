@@ -1,124 +1,13 @@
-/*General Styling*/
+/*För att få footer att placeras längst ner på varje sida*/
+html, body {
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    font-family: Helvetica, sans-serif;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    margin-top: 2rem;
-    padding: 1.5rem;
-    border: 0.1rem solid black;
-    border-radius: 1rem;
-}
-
-p{
-    font-size: 18px;
-}
-
-a{
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
-    transition: transform 0.2s ease-in-out;
-}
-
-a:hover{
-    opacity: 0.7;
-}
-
-button:hover{
-    opacity: 0.7;
-}
-
-table {
-    border-collapse: separate; 
-    border-spacing: 15px; 
-    width: 100%; 
-}
-
-table th, table td {
-    padding: 10px; 
-    text-align: left; 
-    border: 1px solid #ddd; 
-    border-radius: 0.6rem;
-}
-
-table thead {
-    background-color: #f4f4f4; 
-}
-
-
-
-#welcomeText-container{
-    text-align: center;
-    max-width: 500px;
-    
-}
-
-.form-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.btn-crud-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    margin: 1.5rem;
-}
-
-.btn-crud{
-    outline: none;
-    padding: 0.8rem ;
-    border-radius: 0.6rem;
-    border: none;
-}
-
-.btn-crud-create{
-    background-color: lightgreen;
-}
-
-.btn-crud-edit{
-    background-color: lightblue;
-}
-
-.btn-crud-delete{
-    background-color: lightpink;
-}
-
-.form-element {
-    margin-bottom: 15px;
-}
-
-.form-container{
-    display: flex;
-    gap: 1rem;
-}
-
-.update-form {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+main {
+    flex-grow: 1;
 }

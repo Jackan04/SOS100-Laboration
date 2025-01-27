@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyWebApp.Data;
 using MyWebApp.Models;
@@ -22,7 +23,25 @@ namespace MyWebApp.Controllers
             return View(books); // Skickar böckerna till vyn
         }
         
+        public IActionResult Create()
+        {
+            // Detta hämtar alla författare till sidan för att enklare kunna välja författare till en bok
+            var authors = _context.Authors.ToList(); 
+            ViewBag.Authors = new SelectList(authors, "AuthorID", "Name"); // Select lista som senare används i Vyn
+            return View(); 
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> Create(Book book) 
+        {
+            _context.Books.Add(book);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index)); // Returnerar besökaren till Index-metoden/ sidan i samma controller
+                
+        }
 
     }
+    
+
+    
 }
