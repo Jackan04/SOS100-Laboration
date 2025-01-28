@@ -9,6 +9,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient();
+
+builder.Services.AddHttpClient("LocationApi", client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5097"); 
+});
+
+
 
 var app = builder.Build();
 

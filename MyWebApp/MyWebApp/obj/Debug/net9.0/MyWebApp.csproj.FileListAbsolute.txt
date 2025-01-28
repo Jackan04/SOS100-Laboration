@@ -422,3 +422,4 @@ C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\MyWebA
 C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\MyWebApp.genruntimeconfig.cache
 C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\ref\MyWebApp.dll
 C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\obj\Debug\net9.0\compressed\fc4x9g7hx4-unarqvgnch.gz
+C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\bin\Debug\net9.0\Newtonsoft.Json.dll

@@ -1,0 +1,30 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Våra Biblotek";
+}
+
+@model List<MyWebApp.Models.Location>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Stad</th>
+        <th>Land</th>
+        <th>Adress</th>
+        <th>Postnummer</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    @foreach (var location in Model)
+    {
+        <tr>
+            <td>@location.Name</td>
+            <td>@location.Country</td>
+            <td>@location.Address</td>
+            <td>@location.PostalCode</td>
+         
+        </tr>
+    }
+    </tbody>
+</table>
