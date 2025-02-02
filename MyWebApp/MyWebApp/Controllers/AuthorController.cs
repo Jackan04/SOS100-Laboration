@@ -51,17 +51,26 @@ namespace MyWebApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(int AuthorID)
         {
-            var author = await _context.Authors.FindAsync(AuthorID);
-            
+            var author = await _context.Authors
+                .Include(a => a.Books) // Ladda in böcker kopplade till författaren
+                .FirstOrDefaultAsync(a => a.AuthorID == AuthorID);
+
             if (author == null)
             {
                 return NotFound(); 
             }
-            
+
+            if (author.Books.Any()) // Kollar om författaren är kopplad till någon bok i databasen, isåfall behöver du radera en bok genom IDE eftersom att jag inte implementerat CRUD för böcker. Utan endast Create.
+            {
+                TempData["ErrorMessage"] = "Kan inte radera författaren eftersom det finns böcker kopplade. Ta bort böckerna först.";
+                return RedirectToAction(nameof(Index));
+            }
+
             _context.Authors.Remove(author);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index)); // Returnerar besökaren till Index-metoden/ sidan i samma controller
+            return RedirectToAction(nameof(Index)); 
         }
+
 
         
         [HttpGet]

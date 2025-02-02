@@ -17,69 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyWebApp
 build_property.RootNamespace = MyWebApp
-build_property.ProjectDir = C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp\
+build_property.ProjectDir = /Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jacob\repos\SOS100-Laboration\MyWebApp\MyWebApp
+build_property.MSBuildProjectDirectory = /Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZS5jc2h0bWw=
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERlbGV0ZS5jc2h0bWw=
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXGluZGV4LmNzaHRtbA==
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL2luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXFVwZGF0ZS5jc2h0bWw=
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Author/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL1VwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Book/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Book/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Book/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Book/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xVcGRhdGUuY3NodG1s
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Location/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9jYXRpb24vaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Location/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25caW5kZXguY3NodG1s
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jacob/repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-qgspnya79y
+[/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x73cywpurk

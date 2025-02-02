@@ -35,6 +35,14 @@
 
 <main class="container mt-4">
     <h1 class="mb-4">@ViewData["Title"]</h1>
+   
+    @if (TempData["ErrorMessage"] != null) // För att kunna visa felmeddelanden med TempData
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
     @RenderBody()
 </main>
 

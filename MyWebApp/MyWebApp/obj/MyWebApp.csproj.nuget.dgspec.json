@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj": {}
+    "/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/MyWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj": {
+    "/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/MyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
+        "projectUniqueName": "/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/MyWebApp.csproj",
         "projectName": "MyWebApp",
-        "projectPath": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\MyWebApp.csproj",
-        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacob\\repos\\SOS100-Laboration\\MyWebApp\\MyWebApp\\obj\\",
+        "projectPath": "/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/MyWebApp.csproj",
+        "packagesPath": "/Users/jacob/.nuget/packages/",
+        "outputPath": "/Users/jacob/Repos/SOS100-Laboration/MyWebApp/MyWebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jacob/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/jacob/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
